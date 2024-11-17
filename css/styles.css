@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-shadow: border-box;
+}
+
+.body {
+    background-color: #4300ec;
+}
+
+/* cards */
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cards-top { 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+    margin: 1% auto 1% auto;
+}
+
+.cards-bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+    margin: 0 auto 1% auto;
+}
+
+/* informações das princesas: nome e website */
+.name-princess {
+    display: flex;
+    justify-content: center;
+    font-size: 0.9rem;
+    margin-top: 2%;
+}
+
+.p-princess {
+    justify-content: center;
+    font-size: 0.7rem;
+}
+
+.container-web {
+    display: flex;
+    justify-content: center;
+    font-size: 0.7rem;
+}   
+
+.link {
+    margin-left: 2%;
+    color: rgb(255, 55, 55);
+}
+
+
+/* icones das redes sociais */
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.icon-insta,
+.icon-x,
+.icon-face {
+    height: 3vh;
+}
+
+
+/* Botão de mensagem */
+.button-message {
+    background-color: rgb(25, 94, 255);
+    width: 50%;
+    height: 1.2rem;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    font-size: 0.6rem;
+    font-weight: 400;
+    margin: 3% auto 0 auto;
+}
+
+.button-message:hover {
+    background-color: rgb(97, 95, 160);
+}
+
+/* informações extras */
+.texts {
+    display: flex;
+    gap: 2px;
+    margin-top: 5%;
+}
+
+.h6-number {
+    text-align: center; 
+    font-size: 0.7rem;
+}
+
+.p-text {
+    text-align: center;
+    font-weight: 100;
+    font-size: 0.8rem;
+}

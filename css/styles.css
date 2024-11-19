@@ -21,6 +21,7 @@ main {
     justify-content: center;
     gap: 1rem;
     margin: 1% auto 1% auto;
+    transition: transforme 0.3s ease-in-out;
 }
 
 .cards-bottom {
@@ -29,6 +30,15 @@ main {
     justify-content: center;
     gap: 1rem;
     margin: 0 auto 1% auto;
+    transition: transforme 0.3s ease-in-out;
+}
+
+.cards-bottom:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 5px 0px rgba(140, 0, 255, 0.55);
+}
+.cards-top:hover {
+    transform: scale(1.05);
 }
 
 /* informações das princesas: nome e website */
@@ -74,11 +84,11 @@ main {
 .button-message {
     background-color: rgb(25, 94, 255);
     width: 50%;
-    height: 1.2rem;
+    height: 3vh;
     color: white;
     border: none;
     border-radius: 50px;
-    font-size: 0.6rem;
+    font-size: 0.8rem;
     font-weight: 400;
     margin: 3% auto 0 auto;
 }
@@ -90,17 +100,18 @@ main {
 /* informações extras */
 .texts {
     display: flex;
+    justify-content: center;
     gap: 2px;
     margin-top: 5%;
 }
 
 .h6-number {
     text-align: center; 
-    font-size: 0.7rem;
+    font-size: 1rem;
 }
 
 .p-text {
     text-align: center;
     font-weight: 100;
-    font-size: 0.8rem;
+    font-size: 1rem;
 }

@@ -39,6 +39,7 @@ main {
 }
 .cards-top:hover {
     transform: scale(1.05);
+    box-shadow: 0px 0px 5px 0px rgba(0, 132, 255, 0.55);
 }
 
 /* informações das princesas: nome e website */
